@@ -1,0 +1,23 @@
+# ===== Eclipse =====
+.settings/
+.classpath
+.project
+*.launch
+
+# ===== Maven =====
+target/
+build/
+
+# ===== DB 접속 정보 (보안상 제외) =====
+src/main/resources/db.properties
+
+# ===== 로그 =====
+logs/
+*.log
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== IDE =====
+*.class

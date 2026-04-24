@@ -1,0 +1,12 @@
+# ===== PostgreSQL 접속 정보 =====
+# 이 파일을 복사하여 db.properties로 이름 변경 후 실제 값 입력
+pg.driver=org.postgresql.Driver
+pg.url=jdbc:postgresql://localhost:5432/hellodb
+pg.username=postgres
+pg.password=your_password
+
+# ===== Oracle 접속 정보 =====
+ora.driver=oracle.jdbc.OracleDriver
+ora.url=jdbc:oracle:thin:@localhost:1521:XE
+ora.username=scott
+ora.password=tiger
